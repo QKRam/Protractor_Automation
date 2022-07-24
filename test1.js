@@ -24,9 +24,10 @@ element(by.css("h2[class='ng-binding']")).getText().then(function(text){
 //If you are retriving from the browser protractor will not take care of it synchronization/
     console.log(text);
     console,log("Testing branch creation and git commands");
+    console,log("Testing branch creation and git commands");
+})
 })
 
 //real output will disply only when we resolve the promice
 //if not resllved : It is not guarentee sequence on execution 
-});
 });
