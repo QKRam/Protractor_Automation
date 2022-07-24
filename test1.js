@@ -9,6 +9,9 @@ browser.get("https://juliemr.github.io/protractor-demo/");
 element(by.model('first')).sendKeys('2').then(function(){
 
     browser.sleep(6000);
+
+
+    browser.sleep(6000);  browser.sleep(6000);
 });
 element(by.model('second')).sendKeys('8').then(function(){
     browser.sleep(6000);  
