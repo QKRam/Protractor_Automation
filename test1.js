@@ -11,7 +11,6 @@ element(by.model('first')).sendKeys('2').then(function(){
     browser.sleep(6000);
 
 
-    browser.sleep(6000);  browser.sleep(6000);
 });
 element(by.model('second')).sendKeys('8').then(function(){
     browser.sleep(6000);  
@@ -24,6 +23,7 @@ expect(element(by.css("h2[class='ng-binding']")).getText()).toBe('10');
 element(by.css("h2[class='ng-binding']")).getText().then(function(text){
 //If you are retriving from the browser protractor will not take care of it synchronization/
     console.log(text);
+    console,log("Testing branch creation and git commands");
 })
 
 //real output will disply only when we resolve the promice
